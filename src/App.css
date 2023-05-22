@@ -601,3 +601,64 @@ body {
     border-radius: 3px; 
   }
   
+  @media only screen and (max-width: 768px) {
+    .row {
+      flex-direction: column;
+      margin-bottom: 20px;
+    }
+  
+    .column {
+      margin-left: 0;
+    }
+  
+    .icon-row1 {
+      margin-left: 0;
+    }
+  
+    .icon-row2 {
+      margin-left: 0;
+    }
+  
+    .icon-row3 {
+      margin-left: 0;
+    }
+  
+    .icon-column {
+      margin-bottom: 20px;
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .header {
+      font-size: 16px;
+    }
+  
+    .search-container {
+      flex-direction: column;
+    }
+  
+    .search-bar {
+      width: 100%;
+    }
+  
+    .mic-icon {
+      margin-left: 0;
+    }
+  
+    .icon-row1 {
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+    }
+  
+    .icon-row2 {
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+    }
+  
+    .icon-row3 {
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+    }
+  }
