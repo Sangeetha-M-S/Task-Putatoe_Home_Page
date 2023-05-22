@@ -1,0 +1,603 @@
+body {
+    overflow-x: hidden;
+}
+
+.header {
+    padding: 10px;
+    text-align: center;
+    background: #13ac9f;
+    color: white;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+ 
+.location {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .location-box {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    display: inline-flex;
+    padding: 3px;
+    border: 2px solid white;
+    border-radius: 6px;
+  }
+  
+  .location-box i {
+    margin-right: 5px;
+  }
+
+  .location-text {
+    font-size: 0.8rem;
+  }
+  
+  .notification {
+    display: flex;
+    align-items: center;
+    margin-left: .8rem;
+  }
+  
+  .notification-badge {
+    font-size: .8rem;
+    background-color: red;
+    color: white;
+    padding: .1px 6px;
+    border-radius: 50%;
+  }
+
+  .add-to-cart {
+    margin-left: .8rem;
+  }
+
+  .search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 0.5rem 3rem; 
+    margin-top: 10px; 
+    width: fit-content;
+  }
+  
+  .search-bar i {
+    color: #888;
+    margin-right: 5px;
+  }
+  
+  .search-bar input {
+    border: none;
+    outline: none;
+    font-size: 14px; 
+    margin-left: 10px;
+  }
+  
+  .search-bar .search-icon {
+    order: -1; 
+  }
+  
+  .mic-icon {
+    color: white;
+    margin-left: 20px;
+  }
+
+  .card {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+  }
+  
+  .column {
+    flex: 1;
+    margin-left: 250px;
+  }
+  
+  .sim-cards {
+    display: flex;
+    align-items: center;
+  }
+  
+  .sim-cards i {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .transparent-button {
+    background-color: transparent;
+    border: 1px solid #13ac9f;
+    color: #13ac9f;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-right: 10px;
+  }
+  
+  .filled-button {
+    background-color: #13ac9f;
+    border: 1px solid #13ac9f;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+  }
+  
+  .image {
+    max-width: 4rem;
+    margin-bottom: 10px;
+  }
+
+  .scan-image {
+    max-width: 10rem;
+  }
+
+  .icon-row1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .icon-row2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-left: 100px;
+  }
+
+  .icon-row3 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-left: 40px;
+  }
+
+  .text-size {
+    font-size: 14px;
+  }
+  
+  .icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px  100px;
+  }
+  
+  .fa-icon {
+    font-size: 24px;
+  }
+  
+  h4 {
+    font-size: 12px;
+    margin-top: 5px;
+  }
+
+  .recharge-icon {
+    display: inline-block;
+    color: #13ac9f;
+    padding: 8px;
+    border-radius: 50%;
+    font-size: 24px;
+  }
+  
+
+  .dth {
+    display: inline-block;
+    color: #13ac9f;
+    padding: 6px;
+    border-radius: 50%;
+  }
+
+  .rupee {
+    display: inline-block;
+    border: 2px solid white;
+    background-color: #13ac9f;
+    color: #fff;
+    padding: 6px;
+    border-radius: 50%;
+  }
+  
+  .announcement-icon {
+    display: inline-block;   
+    color: #13ac9f;
+    padding: 8px;
+    border-radius: 50%;
+    font-size: 24px;
+  }
+  
+  .news-icon {
+    display: inline-block;
+    color: #13ac9f;
+    padding: 8px;
+    border-radius: 50%;
+    font-size: 24px;
+  }
+  
+  .blog-icon {
+    display: inline-block;
+    color: #13ac9f;
+    padding: 8px;
+    border-radius: 50%;
+    font-size: 24px;
+    margin-left: 20px;
+  }
+  
+  .jobs-icon {
+    display: inline-block;
+    color: #13ac9f;
+    padding: 8px;
+    border-radius: 50%;
+    font-size: 24px;
+    margin-left: 20px;
+  }
+  
+  .anonymous-feedback-icon {
+    display: inline-block;
+    color: #13ac9f;
+    padding: 8px;
+    border-radius: 50%;
+    font-size: 24px;
+  }
+  
+  .gas-booking-icon {
+    display: inline-block;
+    color: #13ac9f;
+    padding: 8px;
+    border-radius: 50%;
+    font-size: 24px;
+  }
+  
+  .electricity-bill-icon {
+    display: inline-block;
+    color: #13ac9f;
+    padding: 8px;
+    border-radius: 50%;
+    font-size: 24px;
+  }
+  
+  .water-bill-icon {
+    display: inline-block;
+    color: #13ac9f;
+    padding: 8px;
+    border-radius: 50%;
+    font-size: 24px;
+  }
+  
+  .see-more-icon {
+    display: inline-block;
+    border: 2px solid white;
+    background-color: #13ac9f;
+    color: #fff;
+    padding: 6px;
+    border-radius: 50%;
+  }
+
+  .card {
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .header {
+    margin-bottom: 10px;
+  }
+  
+  .heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #13ac9f;
+    margin-bottom: 5px;
+  }
+  
+  .subheading {
+    font-size: 20px;
+    color: #80afab;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  
+  .underline1 {
+    height: 2px;
+    background-color: #c8dad8;
+    width: 100%;
+  }
+
+  .underline2 {
+    height: 1px;
+    background-color: black;
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cover-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+  }
+  
+  .label {
+    text-align: center;
+    font-size: 10px;
+    margin-top: 10px;
+  }
+  
+  .discount {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    margin-top: 1px;
+    margin-bottom: 3px;
+  }
+
+  .discount span {
+    color: red;
+  }
+   
+  .box {
+    margin-top: 40px;
+    border: 1px solid #13ac9f;
+    height: 110px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card4 {
+    background-color: white;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    overflow: hidden; /* Hide any content overflow */
+  }
+  
+  .header4 {
+    padding: 10px;
+    text-align: center;
+    background: #a3e8e2;
+    color: #00766c;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  .header4 h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .header4 h4 {
+    font-size: 16px;
+    font-weight: normal;
+  }
+  
+  
+  
+  .card-row {
+    display: flex;
+    overflow-x: scroll;
+    scrollbar-width: thin; /* Set the width of the scrollbar */
+    -ms-overflow-style: none; /* Hide the scrollbar in IE and Edge */
+  }
+  
+  .card-row::-webkit-scrollbar {
+    width: 5px; /* Set the width of the scrollbar */
+  }
+  
+  .card-row::-webkit-scrollbar-thumb {
+    background-color: #888; /* Set the color of the scrollbar thumb */
+    border-radius: 5px; /* Set the border radius of the scrollbar thumb */
+  }
+  
+  .card-row::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Set the color of the scrollbar thumb on hover */
+  }
+  
+  .card-row::-webkit-scrollbar-track {
+    background-color: #f5f5f5; /* Set the background color of the scrollbar track */
+    border-radius: 5px; /* Set the border radius of the scrollbar track */
+  }
+  
+  .card-item {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 auto;
+    background-color: #fff;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    min-width: 100px;
+    height: 100px;
+    margin-bottom: 30px;
+  }
+  
+  .card-item:last-child {
+    margin-right: 0;
+  }
+
+  .card-item .card-label {
+    text-align: center;
+  }
+
+  .letter-box {
+    align-items: center;
+    background-color: lightblue;
+    height: 3.5rem;
+    width: 5rem;
+  }
+
+  .letter-box h3 {
+    font-size:44px;
+    color: white;
+    text-align: center;
+  }
+
+  .row6 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .card6-1 {
+    background-color: #3d3a3a;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 200px;
+    background-image: url("./images/grocery.jpeg");
+    position: relative; /* Add position relative to enable absolute positioning */
+  }
+  
+  .card6-1 h3 {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    position: absolute; /* Position the header absolutely */
+    bottom: 0; /* Place the header at the bottom */
+    margin-bottom: 10px; /* Add some margin at the bottom for spacing */
+  }
+  
+
+  .card6-2 {
+    background-color: #3d3a3a;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 200px;
+    background-image: url("./images/construction.jpeg");
+    position: relative;
+  }
+
+  .card6-2 h3 {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    position: absolute; /* Position the header absolutely */
+    bottom: 0; /* Place the header at the bottom */
+    margin-bottom: 10px; /* Add some margin at the bottom for spacing */
+  }
+
+  .card6-3 {
+    background-color: #f1f1f1;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 200px;
+    background-image: url("./images/consultancy.jpeg");
+  }
+
+  .row6.card6-3 h3 {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    position: absolute; /* Position the header absolutely */
+    bottom: 0; /* Place the header at the bottom */
+    margin-bottom: 10px; /* Add some margin at the bottom for spacing */
+  }
+
+  .discount-label {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: rgb(30, 234, 30);
+    color: white;
+    padding: 3px 18px;
+  }
+  
+  .round-image {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background-color: #13ac9f;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    width: fit-content;
+    margin-left: auto;
+  }
+  
+  .round-image img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: sticky;
+    z-index: 999;
+  }
+
+  .sticky-image {
+    position: fixed;
+    bottom: 80px; /* Adjust the top position as needed */
+    right: 20px; /* Adjust the right position as needed */
+    z-index: 999; /* Ensure the image stays above other elements */
+  }
+  
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .footer-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer-item img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .footer-item span {
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  .trapezium {
+    position: relative;
+    background-color:#13ac9f;
+    padding: 10px;
+    border-radius: 3px; 
+  }
+  
